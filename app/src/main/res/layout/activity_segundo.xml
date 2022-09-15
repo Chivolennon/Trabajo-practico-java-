@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".segundoActivity">
+
+    <ScrollView
+        android:layout_width="399dp"
+        android:layout_height="684dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.692">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imgtarkov"
+                android:layout_width="match_parent"
+                android:layout_height="131dp"
+                android:contentDescription="@string/LogoTarkov"
+                app:srcCompat="@drawable/tarkovez" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="259dp"
+                android:text="@string/LoreTarkov"
+                android:textAlignment="center"
+                android:textColor="@color/white" />
+
+            <ImageButton
+                android:id="@+id/weapon"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:contentDescription="@string/DescripcionArmas"
+                android:onClick="Descripcion"
+                app:srcCompat="@drawable/weapon"
+                tools:ignore="ImageContrastCheck" />
+
+            <ImageButton
+                android:id="@+id/armor"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:contentDescription="@string/DescripcionArmadura"
+                android:onClick="Descripcion"
+                app:srcCompat="@drawable/armortarkov" />
+
+            <ImageButton
+                android:id="@+id/rig"
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:contentDescription="@string/DescripcionRig"
+                android:onClick="Descripcion"
+                app:srcCompat="@drawable/rigtarkov" />
+
+            <Button
+                android:id="@+id/kienSoy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="nuevaPag"
+                android:text="@string/quien_hizo_esto" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

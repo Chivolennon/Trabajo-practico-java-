@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ezbro</string>
+    <string name="escape_from_tarkov">Escape From Tarkov</string>
+    <string name="txtLOGIN">LOGIN</string>
+    <string name="txtNombreHint">Usuario</string>
+    <string name="txtContraHint">Contraseña</string>
+    <string name="btnIngresarLogin">Ingresar</string>
+    <string name="FondoLogin">BackGroundLogin</string>
+    <string name="LoreTarkov">Escape from Tarkov es un juego de rol de acción en primera persona en línea, duro y realista, con características de MMO desarrollado por el desarrollador de juegos ruso con sede en San Petersburgo, Battlestate Games. Ambientada en la región ficticia de Norvinsk ubicada en la frontera entre Rusia y Europa, la metrópolis de Tarkov se sumió en la anarquía gracias a las Guerras de los Contratos. Lo que alguna vez fue una ciudad bulliciosa, ahora es habitada por bandas rivales de carroñeros , antiguas fuerzas militares privadas y unidades de operaciones encubiertas . Entre todos ellos, estás tú, tu alijo y el escape de regreso al mundo libre desde las profundidades de Tarkov.</string>
+    <string name="DescripcionArmas"> Armas Proximamente</string>
+    <string name="DescripcionRig"> Rig Proximamente</string>
+    <string name="DescripcionArmadura"> Armadura Proximamente</string>
+    <string name="LogoTarkov"> Logo Tarkov</string>
+    <string name="DescripcionCosas">Descripcion de cosas </string>
+    <string name="quien_soy">Quien Soy</string>
+    <string name="quien_hizo_esto">Quien hizo esto!</string>
+</resources>
